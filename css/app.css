@@ -111,28 +111,21 @@ to {opacity: 1;}
           animation: fadeIn 1s ease-in;}
 }
 
-
-
-h2 {
-     font-weight: 700;
-     font-size: 35px;
-     margin-bottom: 0;
-     color: #fff;}
-
-p {
+/*homepage p*/
+p.p {
    color: #fff;
    font-size: 16px;
    font-weight: 300;}
 
 
-
-a{
+/*text decor for nav links*/
+a.nav {
      text-decoration: none;
      color: #fff;
      letter-spacing: 4px;
      font-size: 12px;
      text-transform: uppercase;
-     padding: 16px 42px;}
+     }
 
      figcaption>p>a{
           padding: 16px 5px;
@@ -145,29 +138,7 @@ a.link {border: 2px solid #fff;}
 this means connecting from html to css **/
 
 
-/**
-.square1 {
-  width: 97%;
-    height:350px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    margin-top: 50px;
-    background-color: black;
-    padding-top: 40px;
-
-}
-**/
-.square2 {
-margin-top: 50px;
-}
-
-/** width: 97%;
-    height:350px;
-    border: 1px solid red;
-    box-sizing: border-box;
-
-}**/
-
+/*homepage footer*/
 .footer {
   width: 97%;
     height:120px;
@@ -178,7 +149,7 @@ margin-top: 50px;
 }
 
 
-
+/*homepage slider captions*/
 .orbit-caption{
   color:red;
   right: 0;
@@ -188,26 +159,11 @@ margin-top: 50px;
   padding: 50px;
 }
 
-@media only screen and (max-width:64.06em ) {
-.topbar-responsive .topbar-responsive-logo { padding:0;}}
+/*placement of sliders in homepage*/
+.square2 {margin-top:50px;}
 
-
-/*
+/**below is for homepage sliders:
 turn margins into percentages so that it scales
-
 rn its in absolute value*/
-
-
-
-
-
-
-
-
-/* footer
-footer p {
-
-      color: grey;
-      margin: 30px auto;
-      bottom: 0px;
-}
+@media only screen and (max-width:64.06em ) {
+h2 p { padding:0;}}
