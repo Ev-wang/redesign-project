@@ -111,11 +111,11 @@ to {opacity: 1;}
           animation: fadeIn 1s ease-in;}
 }
 
-/*homepage p*/
+/*homepage p
 p.p {
    color: #fff;
    font-size: 16px;
-   font-weight: 300;}
+   font-weight: 300;} */
 
 
 /*text decor for nav links*/
@@ -165,5 +165,7 @@ this means connecting from html to css **/
 /**below is for homepage sliders:
 turn margins into percentages so that it scales
 rn its in absolute value*/
-@media only screen and (max-width:64.06em ) {
-h2 p { padding:0;}}
+@media only screen and (max-width:39.9375em ) {
+.orbit-caption{color: blue; top:inherit; width:100%;
+  font-size: 14px;
+}}
