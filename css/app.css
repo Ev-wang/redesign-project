@@ -141,17 +141,24 @@ this means connecting from html to css **/
 /*homepage footer*/
 .footer {
   width: 97%;
-    height:120px;
+    height:100%;
     box-sizing: border-box;
     background-color:black;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+.footerp{line-height: 5px;}
+
+.sectionspace{margin-top:35px;}
 
 
 /*homepage slider captions*/
 .orbit-caption{
-  color:red;
+  color:White;
   right: 0;
   top: 0;
   margin-bottom:0;
@@ -166,6 +173,6 @@ this means connecting from html to css **/
 turn margins into percentages so that it scales
 rn its in absolute value*/
 @media only screen and (max-width:39.9375em ) {
-.orbit-caption{color: blue; top:inherit; width:100%;
+.orbit-caption{color: white; top:inherit; width:100%;
   font-size: 14px;
 }}
